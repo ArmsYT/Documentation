@@ -117,11 +117,11 @@
 <span class="text-[#efc810]">}</span><span class="text-[#129ff1]">)</span></code></pre>
 </code></pre>
 
-<pre class="bg-[#10141c] p-[0.8rem] mt-0 mb-[1rem] text-[#567482] text-wrap border-[0.3rem] border-solid border-[#10141c]"><code class="px-[2px] py-[4px] text-[0.8rem]"><span class="text-[#c169c6]">local</span> <span class="text-white">list</span> <span class="text-[#c169c6]">=</span> <span class="text-[#efc810]">1</span>
+<pre class="bg-[#10141c] p-[0.8rem] mt-0 mb-[1rem] text-[#567482] text-wrap border-[0.3rem] border-solid border-[#10141c]"><code class="px-[2px] py-[4px] text-[0.8rem]"><span class="text-[#c169c6]">local</span> <span class="text-white">IndexList</span> <span class="text-[#c169c6]">=</span> <span class="text-[#efc810]">1</span>
 
 <span class="text-white">RageUI</span><span class="text-white">.</span><span class="text-lime-400">List</span><span class="text-[#129ff1]">(</span><span class="text-[#f1fa8c]">"Gilet pare-balles"</span><span class="text-white">, </span><span class="text-[#efc810]">{</span><span class="text-[#f1fa8c]">"Petit"</span><span class="text-white">, </span><span class="text-[#f1fa8c]">"Moyen"</span><span class="text-white">, </span><span class="text-[#f1fa8c]">"Grand"</span><span class="text-[#efc810]">}</span><span class="text-white">, IndexList,</span> <span class="text-[#f0a941]">nil</span><span class="text-white">,</span><span class="text-[#efc810]">{}</span><span class="text-white">,</span> <span class="text-[#f0a941]">true</span><span class="text-white">, </span><span class="text-[#efc810]">{</span>
     <span class="text-white">onListChange</span> <span class="text-[#c169c6]">= function(</span><span class="text-[#f0a941]">Index</span><span class="text-[#c169c6]">)</span>
-        <span class="text-white">list</span> <span class="text-[#c169c6]">=</span> <span class="text-white">Index</span>
+        <span class="text-white">IndexList</span> <span class="text-[#c169c6]">=</span> <span class="text-white">Index</span>
     <span class="text-[#c169c6]">end</span><span class="text-white">,</span>
     <span class="text-white">onSelected</span> <span class="text-[#c169c6]">=</span> <span class="text-[#c169c6]">function(</span><span class="text-[#f0a941]">index</span><span class="text-[#c169c6]">)</span>
         <span class="text-white">print</span><span class="text-[#c169c6]">(</span><span class="text-white">index</span><span class="text-[#c169c6]">)</span>
